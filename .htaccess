@@ -1,0 +1,19 @@
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+# BEGIN WordPress
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /dev/the_one/OurBY/
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /dev/the_one/OurBY/index.php [L]
+#</IfModule>
+
+# END WordPress

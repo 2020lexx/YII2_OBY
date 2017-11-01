@@ -1,0 +1,89 @@
+/*
+*
+* Utility CSS
+*
+* @pablo
+*
+*/
+.menu{
+
+}
+
+.menu_item{
+float: left;
+    margin-left: 10px;
+    margin-right: -8%;
+    padding: 0px;
+  -webkit-animation: menu_right 2s;  
+    -moz-animation:menu_right 2s;  
+    -o-animation:menu_right 2s;  
+     animation:menu_right 2s;    
+}
+
+}
+@-webkit-keyframes menu_right {
+  0%   { margin-right: -20%;}
+  100% {margin-right: -8%;}
+}
+@-moz-keyframes menu_right {
+  0%   { margin-right: -20%;}
+  100% { margin-right: -8%;}
+}
+@-o-keyframes menu_right {
+  0%   { margin-right: -2020%; }
+  100% { margin-right: -8%;}
+}
+@keyframes menu_right {
+  0%   { margin-right: -20%;}
+  100% { margin-right: -8%;}
+}
+.menu_id{  
+	padding-top:15px;
+	padding-right: 4px;
+	font-family: 'roboto';
+	font-weight: 400;
+	font-size:1.8em;
+	margin:4px;
+	
+	color:#fff;
+	width:20px;
+	border-right: 1px solid #fff;
+	  
+}
+
+.menu_des{
+	 
+	font-family: 'roboto';
+	font-weight: 400;
+	font-size:.8em;
+	border-bottom: 1px solid #fff;  
+	padding-left: 15px;
+	color:#fff;
+	width: 100px;
+	-ms-transform:translate(15px,-23px ) rotate(-30deg); /* IE 9 */
+    -webkit-transform:translate(15px,-23px) rotate(-30deg); /* Chrome, Safari, Opera */
+    transform:translate(15px,-23px )  rotate(-30deg);
+    -webkit-animation: menu_descS 10s; /* Safari 4+ */
+    -moz-animation:menu_descS 10s; /* Fx 5+ */
+    -o-animation:menu_descS 10s; /* Opera 12+ */
+     animation:menu_descS 10s; /* IE 10+, Fx 29+ */ 
+
+ 
+}
+@-webkit-keyframes menu_descS {
+  0%   { color:transparent;}
+  100% {color:#fff;;}
+}
+@-moz-keyframes menu_descS {
+  0%   {color:transparent;}
+  100% {color:#fff;}
+}
+@-o-keyframes menu_descS {
+  0%   { color:transparent;}
+  100% { color:#fff;}
+}
+@keyframes menu_descS {
+  0%   {color:transparent;}
+  100% {color:#fff;}
+}
+ 
